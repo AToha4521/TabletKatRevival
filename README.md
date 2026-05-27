@@ -4,8 +4,18 @@
 [![Platform](https://img.shields.io/badge/Platform-Android%204.4-green.svg)](https://developer.android.com/about/versions/kitkat)
 [![Xposed](https://img.shields.io/badge/Framework-Xposed-orange.svg)](https://repo.xposed.info/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Download](https://img.shields.io/badge/Download-APK-orange.svg)](https://github.com/AToha4521/TabletKatRevival/releases)
 
 **TabletKat Revival** is a modernized and stabilized version of the original TabletKat Xposed module. It restores the authentic Android 4.x (ICS/JB) Tablet UI on Android 4.4 KitKat devices, focusing on stability, performance, and visual accuracy.
+
+---
+
+## 📸 Previews
+
+<img src="screenshots/homescreen.png" width="400"> 
+<img src="screenshots/notifications.png" width="400"> 
+<img src="screenshots/settings.png" width="400"> 
+<img src="screenshots/quicksettings.png" width="400"> 
 
 ---
 
@@ -15,6 +25,7 @@
 - [Key Improvements](#key-improvements)
 - [Features](#features)
 - [ROM Compatibility](#rom-compatibility)
+- [Downloads](#downloads)
 - [Building and Installation](#building-and-installation)
 - [Debugging](#debugging)
 - [Project Structure](#project-structure)
@@ -43,7 +54,7 @@ This revival addresses critical stability issues and adds polished features like
 
 ### Stability & Safety
 *   **SafeHook Engine**: All system hooks run through a wrapper that catches `NoSuchMethodError`, preventing SystemUI crashes on custom ROMs or missing components like `TvStatusBar`.
-*   **Dual-Pane Stabilization**: Re-implemented the Tablet settings layout using a Fragment-based architecture. This eliminates the "flip-back" bug where toggles would reset while scrolling.
+*   **Dual-Pane Stabilization**: Re-implemented the Tablet settings layout using a Fragment-based architecture. 
 *   **TouchWiz Protection**: Automatically detects Samsung's framework and bails safely to prevent bootloops.
 
 ### Visual & Logic Fixes
@@ -84,12 +95,17 @@ Add functional shortcuts to the right side of the system bar:
 
 ---
 
+## Downloads
+You can find the latest stable APKs in the **[Releases](https://github.com/AToha4521/TabletKatRevival/releases)** section.
+
+---
+
 ## Building and Installation
 
 ### Build from Source
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_FORK/tabletkat-revival
+git clone https://github.com/AToha4521/TabletKatRevival.git
 cd tabletkat-revival
 
 # Compile the APK
