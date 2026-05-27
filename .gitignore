@@ -1,0 +1,28 @@
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Local configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Built artifacts
+*.apk
+*.ap_
+*.dex
+
+# Binaries
+bin/
+gen/
+
+# Revival specific exclusions
+original-source/
+tools/
+*.log
+captures/

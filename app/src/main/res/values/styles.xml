@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <!-- Holographic dark theme for the settings UI — matches the tablet bar aesthetic -->
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:textColorPrimary">#FFFFFFFF</item>
+        <item name="android:textColorSecondary">#FFAAAAAA</item>
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Navigation Bar Extra Buttons">
+        <SwitchPreference
+            android:key="navbutton_volume"
+            android:title="Volume buttons"
+            android:summary="Add Vol− and Vol+ buttons to the navigation bar"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="navbutton_screenshot"
+            android:title="Screenshot button"
+            android:summary="Add a quick screenshot button"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="navbutton_power"
+            android:title="Sleep / Power button"
+            android:summary="Tap to sleep, long-press for power menu"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="navbutton_expanded"
+            android:title="More (⋮) menu button"
+            android:summary="Opens a quick-access menu: brightness, torch, airplane, rotate, reboot"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="navbutton_order"
+            android:title="Button order"
+            android:summary="Comma-separated: vol_down,vol_up,screenshot,power,expanded" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

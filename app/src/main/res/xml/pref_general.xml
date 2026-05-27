@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Theme Style">
+        <SwitchPreference
+            android:key="enable_tablet_ui"
+            android:title="Enable Tablet UI"
+            android:summary="Activate the ICS/JB tablet layout (system bar at the bottom, notifications on the right)"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="theme_style"
+            android:title="UI Theme"
+            android:summary="Choose between ICS, Jelly Bean or KitKat appearance"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="jb" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Status Bar">
+        <SwitchPreference
+            android:key="holo_tint"
+            android:title="Holographic tint"
+            android:summary="Dark navy-blue (#1A1F2E) background on system bar — ICS/JB look"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="ics_clock_font"
+            android:title="ICS condensed clock font"
+            android:summary="Use Roboto Condensed for the system bar clock (authentic ICS look)"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="clock_seconds"
+            android:title="@string/pref_title_clock_seconds"
+            android:summary="@string/pref_summary_clock_seconds"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="battery_percentage"
+            android:title="Battery percentage"
+            android:summary="Show percentage number next to battery icon"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="battery_style"
+            android:title="Battery icon style"
+            android:entries="@array/battery_style_entries"
+            android:entryValues="@array/battery_style_values"
+            android:defaultValue="bar" />
+
+        <SwitchPreference
+            android:key="notif_panel_compact"
+            android:title="Compact notification panel"
+            android:summary="Right-anchored narrow panel (ICS/JB tablet style) instead of full-screen"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="extended_settings"
+            android:title="@string/pref_title_extended_settings"
+            android:summary="@string/pref_summary_extended_settings"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

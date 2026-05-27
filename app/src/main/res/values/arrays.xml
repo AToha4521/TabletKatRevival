@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_entries">
+        <item>Holo (ICS / Jelly Bean style)</item>
+        <item>KitKat (Stock style)</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>holo</item>
+        <item>kitkat</item>
+    </string-array>
+
+    <string-array name="battery_style_entries">
+        <item>Bar (default)</item>
+        <item>Circle</item>
+        <item>Text only</item>
+    </string-array>
+    <string-array name="battery_style_values">
+        <item>bar</item>
+        <item>circle</item>
+        <item>text</item>
+    </string-array>
+</resources>

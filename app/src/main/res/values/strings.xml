@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TabletKat Revival</string>
+    <string name="app_version">2.0-revival</string>
+    <string name="settings_title">TabletKat Settings</string>
+    <string name="xposed_description">Restores the true tablet UI (ICS/JB style) for KitKat — Revival edition with bug fixes and extra features</string>
+
+    <!-- Headers -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_recents">Recents</string>
+    <string name="pref_header_launcher">Launcher</string>
+    <string name="pref_header_settings">Settings</string>
+    <string name="pref_header_about">About</string>
+
+    <!-- General -->
+    <string name="pref_title_enable_tablet_ui">Enable tablet UI</string>
+    <string name="pref_summary_enable_tablet_ui">Use older tablet mode</string>
+
+    <string name="pref_title_extended_settings">Extended quick settings</string>
+    <string name="pref_summary_extended_settings">Allow additional features in the settings pane</string>
+
+    <string name="pref_title_ics_clock_font">ICS clock font</string>
+    <string name="pref_summary_ics_clock_font">Use a special font for clock</string>
+
+    <string name="pref_title_clock_seconds">Show clock seconds</string>
+    <string name="pref_summary_clock_seconds">Display seconds in the status bar clock</string>
+
+    <string name="pref_title_battery_percents">Show battery percents</string>
+
+    <!-- Recents -->
+    <string name="pref_title_enable_mod_recents">Enable tablet recents</string>
+    <string name="pref_summary_enable_mod_recents">Pin recents to the left</string>
+
+    <string name="pref_title_overlay_recents">Enable overlay recents</string>
+    <string name="pref_summary_overlay_recents">Open recents above the current app</string>
+
+    <!-- Launcher -->
+    <string name="pref_title_enable_mod_launcher">Enable tablet launcher layout</string>
+    <string name="pref_summary_enable_mod_launcher">Launcher2 (Nexus 10 default) only</string>
+
+    <!-- Settings -->
+    <string name="pref_title_enable_mod_settings">Enable multi-pane settings</string>
+    <string name="pref_summary_enable_mod_settings">Enable multi-pane mode in the Settings app</string>
+
+    <string name="pref_title_force_breadcrumbs">Force breadcrumbs</string>
+
+    <string name="pref_title_settings_light_theme">Light theme</string>
+    <string name="pref_summary_settings_light_theme">Use this if you experience glitches</string>
+
+    <!-- About -->
+    <string name="pref_title_author">Revival Developer</string>
+    <string name="pref_summary_author">Toha Abdullah</string>
+
+    <string name="pref_title_original_author">Original Author</string>
+    <string name="pref_summary_original_author">Exalm (alice-mkh)</string>
+
+    <string name="pref_title_version">TabletKat version</string>
+    <string name="pref_summary_version">@string/app_version</string>
+
+    <string name="pref_title_support">Source code</string>
+    <string name="pref_summary_support">Tap to see the source code on Github</string>
+
+
+
+    <string name="pref_title_donate">Donate</string>
+    <string name="pref_summary_donate">Tap to donate the original developer via PayPal</string>
+
+    <string name="pref_title_source">Source code [TabletkatRevival] </string>
+    <string name="pref_summary_source">Tap to see the source code of Tabkat revival on Github</string>
+
+    <!-- SystemUI Strings -->
+    <string name="compat_mode_on">Zoom to fill screen</string>
+    <string name="compat_mode_off">Stretch to fill screen</string>
+    <string name="notifications_off_title">Notifications off</string>
+    <string name="notifications_off_text">Tap here to turn notifications back on.</string>
+    <string name="compat_mode_help_header">Compatibility zoom</string>
+    <string name="compat_mode_help_body">When an app was designed for a smaller screen, a zoom control will appear by the clock.</string>
+    <string name="accessibility_compatibility_zoom_button">Compatibility zoom button.</string>
+    <string name="accessibility_compatibility_zoom_example">Zoom smaller to larger screen.</string>
+    <string name="status_bar_settings_bluetooth">Bluetooth</string>
+    <string name="status_bar_settings_location">Location</string>
+    <string name="status_bar_settings_poweroff">Power off</string>
+    <string name="status_bar_date_formatter">%1$s, %2$s</string>
+</resources>
