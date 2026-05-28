@@ -3,7 +3,6 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Android%204.4-green.svg)](https://developer.android.com/about/versions/kitkat)
 [![Xposed](https://img.shields.io/badge/Framework-Xposed-orange.svg)](https://repo.xposed.info/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Download](https://img.shields.io/badge/Download-APK-orange.svg)](https://github.com/AToha4521/TabletKatRevival/releases)
 
 **TabletKat Revival** is a modernized and stabilized version of the original TabletKat Xposed module. It restores the authentic Android 4.x (ICS/JB) Tablet UI on Android 4.4 KitKat devices, focusing on stability, performance, and visual accuracy.
@@ -144,6 +143,5 @@ For a full tablet experience, use a **Nexus 10** emulator image with **Android 4
 ---
 
 ## License and Credits
-- **License**: Apache License 2.0 (See `LICENSE` file).
 - **Original Author**: Exalm (alice-mkh)
 - **Revival Developer**: Toha Abdullah
